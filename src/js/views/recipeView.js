@@ -96,7 +96,7 @@ class RecipeView {
   <div class="recipe__directions">
     <h2 class="heading--2">How to cook it</h2>
     <p class="recipe__directions-text">
-      This this.#data was carefully designed and tested by
+      This ${this.#data.title} was carefully designed and tested by
       <span class="recipe__publisher">${
         this.#data.publisher
       }</span>. Please check out
