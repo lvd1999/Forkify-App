@@ -5,7 +5,7 @@ import icons from 'url:../../img/icons.svg'; //Parcel 2
 import { Fraction } from 'fractional';
 
 class RecipeView extends View {
-  _parentEl = document.querySelector('.recipe');
+  _parentElement = document.querySelector('.recipe');
   _errorMessage = 'We couldnt find the recipe. Please try again.';
   _message = '';
 
@@ -58,9 +58,7 @@ class RecipeView extends View {
     </div>
 
     <div class="recipe__user-generated">
-      <svg>
-        <use href="${icons}#icon-user"></use>
-      </svg>
+
     </div>
     <button class="btn--round">
       <svg class="">
